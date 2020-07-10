@@ -13,6 +13,7 @@
 
 # HRAC (High Resolution Annual Climatology)  -  365 x 720 x 360
 # HRFC (High Resolution Full Climatology)    -        720 x 360
+# LRFC (Low  Resolution Full Climatology)    -        144 x  72 - flashes / km^2 / year
 # HRMC (High Resolution Monthly Climatology) -   12 x 720 x 360
 # LRAC (Low Resolution Annual Climatology)   -  365 x 144 x  72 - flashes / km^2 / day
 # LRDC (Low Resolution Diurnal Climatology)  -   24 x 144 x  72
@@ -21,7 +22,9 @@
 
 # Convert from HDF4 to HDF5.
 #
-h5fromh4 -d hrfc  LISOTD_HRFC_V2.2.hdf
-h5fromh4 -d hrac  LISOTD_HRAC_V2.2.hdf
-h5fromh4 -d lrdc  LISOTD_LRDC_V2.2.hdf
+h5fromh4 -d hrfc LISOTD_HRFC_V2.2.hdf
+h5fromh4 -d hrac LISOTD_HRAC_V2.2.hdf
+h5fromh4 -d lrdc LISOTD_LRDC_V2.2.hdf
 h5fromh4 -d lrmts LISOTD_LRMTS_V2.2.hdf
+h5fromh4 -d lrfc LISOTD_LRFC_V2.3.2014.hdf
+h5fromh4 -d lrac LISOTD_LRAC_V2.3.2014.hdf

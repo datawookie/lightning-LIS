@@ -41,6 +41,7 @@ read.lisotd = function(hdf5file, varnames) {
 
 hrfc = read.lisotd("data/LISOTD_HRFC_V2.2.h5", c("lat", "lon"))
 lrts = read.lisotd("data/LISOTD_LRTS_V2.2.h5", c("lat", "lon", "day"))
+lrfc = read.lisotd("data/LISOTD_LRFC_V2.3.2014.h5", c("lat", "lon"))
 
 # ---------------------------------------------------------------------------------------------------------------------
 # LRTS
